@@ -1,3 +1,7 @@
 package com.github.maaky1.data
 
-class Address
+class Address {
+    var street: String = ""
+    var city: String = ""
+    var country: String = "Indonesia"
+}

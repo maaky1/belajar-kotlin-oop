@@ -3,7 +3,9 @@ package com.github.maaky1.app
 import com.github.maaky1.data.Person
 
 fun main() {
-    val a = Person()
+    val data = Person()
+    data.firstName = "Agus"
+    data.lastName = "F"
 
-    println(a)
+    println("Hello ${data.firstName} ${data.lastName}")
 }
