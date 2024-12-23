@@ -5,7 +5,8 @@ import com.github.maaky1.data.Car
 fun main() {
     val wuling = Car("Wuling")
     wuling.year = 2023
-    val bmw = Car("BMW", 2005)
+
+    val bmw = Car("BMW", "M3")
 
     println(wuling.brand)
     println(wuling.year)
